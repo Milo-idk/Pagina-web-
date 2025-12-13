@@ -19,9 +19,10 @@
 /*   Inicio cabecera */
 
 .cabecera{
-    background-color: chartreuse;
+    background-color: rgb(125, 189, 61);
     width: 70%;
-    width: 50px;
+    height: 50px;
+    padding: 0 40px;
 
 }
 
@@ -32,6 +33,10 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .cabecera_img{
@@ -40,11 +45,75 @@
     margin-right: 10px;
 
 }
-
 /*   Fin cabecera */
 
-/*   Inicio Nacegacion */
+/*   Inicio Navegacion */
+
+.navegacion{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+
+.navegacion a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 185, 87);
+    
+}
+/*  Fin Navegacion */
 
 /*   Inicio Banner */
+.banner{
+    background-image: url(../Img/spaghetti-g947692dca_1920.jpg);
+    background-position: center;
+    width: 70%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
 
-/*   Fin Banner */
+.banner h1{
+    font-size: 75px;
+}
+
+.banner h2{
+    font-size: 30px;
+}
+
+.banner a{
+    background-color:rgb(218, 185, 87);
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+    color: black;
+}
+
+.banner a:hover{
+    background-color:rgb(13, 13, 13);
+    color: rgb(255, 255, 255);
+}
+/*   Fin Banner */ 
